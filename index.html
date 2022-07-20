@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lordle</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #logo{
+            /* resize */
+            width: 320px;
+            height: 150px;
+            /* center image */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* position */
+            margin-top: 20px;
+        }
+        .describe-container{
+            text-align: center;
+        }
+        .describe{
+            color: whitesmoke;
+            font-size: 25px;
+            font-weight: 1000;
+            background-color: black;
+            opacity: 0.75;
+            padding: 5px;
+        }
+        #start_button{
+            width: 500px;
+            height: 500px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="texture\image\lor_logo.png" alt="lor_logo" id="logo">
+    </div>
+    <div class="describe-container">
+        <span class="describe">Guess a legend of runeterra card</span>
+    </div>
+
+    <div>
+        <nav>
+            <a href="game_screen.html"><img src="texture\image\start_button.png" alt="start_button" id="start_button"></a>
+        </nav>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

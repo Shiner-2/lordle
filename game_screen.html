@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lordle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <img src="texture\image\lor_logo.png" alt="lor_logo" id="logo" />
+    </div>
+    <div id="title">
+      <span id="content">Guess today legend of runeterra's card</span>
+    </div>
+    <div class="input-container">
+      <input type="text" id="ans" placeholder="Type your card here..." />
+      <img src="texture\image\next.png" id="next" onclick="result()" />
+      <p id="time_left_container">Time left: <span id="time_left">13</span></p>
+    </div>
+    <div class="display-ans-header">
+        <div class="square-header">
+            <div class="square-content-header">
+                Tries
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Name
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Regions
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Attack
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Health
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Cost
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Keywords
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Type
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Subtypes
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Rarity
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Artist name
+            </div>
+            <hr class="line">
+        </div>
+        <div class="square-header">
+            <div class="square-content-header">
+                Set
+            </div>
+            <hr class="line">
+        </div>
+    </div>
+    <div class="ans-display" id="ans-display">
+        
+    </div>
+    <script src="data\set1-en_us.js"></script>
+    <script src="data\set2-en_us.js"></script>
+    <script src="data\set3-en_us.js"></script>
+    <script src="data\set4-en_us.js"></script>
+    <script src="data\set5-en_us.js"></script>
+    <script src="data\set6-en_us.js"></script>
+    <script src="data\make data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
