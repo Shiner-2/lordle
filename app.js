@@ -4,7 +4,7 @@ let time_guess_name = ["zero","one","two","three","four","five","six","seven","e
 "fourteen","fifteen","sixteen","seventeen","eighteen","nineteen","twenty",
 "twenty-one","twenty-two","twenty-three","twenty-four","twenty-five",
 "twenty-six","twenty-seven","twenty-eight","twenty-nine"];
-let today_card = Math.floor(Math.random() * 1188);
+let today_card = cards[Math.floor(Math.random() * 1188)];
 let simicnt = 0;
 let limit = 13;
 let haveguess = [];
