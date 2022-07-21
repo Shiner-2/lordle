@@ -1,4 +1,5 @@
 # Lordle game
+https://shiner-2.github.io/lordle/
 press start and enter the card name in the textbox.
 The card you type in must be a collectable card like standard card in card library.
 
